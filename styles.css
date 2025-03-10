@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --bright-orange: #e38826;
+    --dark-cyan: #006970;
+    --very-dark-cyan: #004241;
+    --white: #ffffff;
+    --light-gray: #f2f2f2;
+}
+
+* {
+    font-family: 'Lexend Deca';
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+}
+
+main {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+img {
+    width: 50px;
+}
+
+.sedan {
+    background-color: var(--bright-orange);
+}
+
+.suv {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+h1 {
+    font-family: 'Big Shoulders';
+    text-transform: uppercase;
+    color: var(--light-gray);
+}
+
+p {
+    font-weight: 300;
+    color: var(--white);
+    margin-right: 10px;
+}
+
+button {
+    width: 130px;
+    background-color: var(--light-gray);
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.sedan button {
+    color: var(--bright-orange);
+}
+
+.suv button {
+    color: var(--dark-cyan);
+}
+
+.luxury button {
+    color: var(--very-dark-cyan);
+}
+
+.sedan button:hover {
+    cursor: pointer;
+    color: var(--light-gray);
+    background-color: var(--bright-orange);
+    border: 2px solid var(--light-gray);
+}
+
+.suv button:hover {
+    cursor: pointer;
+    color: var(--light-gray);
+    background-color: var(--dark-cyan);
+    border: 2px solid var(--light-gray);
+}
+
+.luxury button:hover {
+    cursor: pointer;
+    color: var(--light-gray);
+    background-color: var(--very-dark-cyan);
+    border: 2px solid var(--light-gray);
+}
+
+@media (max-width: 800px) {
+
+    body {
+        margin: 50px 0;
+        height: fit-content;
+        overflow-y: scroll;
+    }
+
+    main {
+        width: 300px;
+        height: fit-content;
+        flex-direction: column;
+    }
+}
