@@ -17,5 +17,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aisyahhannes/preview-card-frontend-mentor)
-- Live Site URL: [Add live site URL here](https://aisyahhannes.github.io/preview-card-frontend-mentor)
+- Solution URL: [Solution URL](https://github.com/aisyahhannes/preview-card-frontend-mentor)
+- Live Site URL: [Live site URL](https://aisyahhannes.github.io/preview-card-frontend-mentor)
